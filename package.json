@@ -1,0 +1,24 @@
+{
+  "name": "koala-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "koala-watch": "./bin/koala.js"
+  },
+  "main": "bin/koala.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dom Charlseworth <dominic.charlesworth@uswitch.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-spinners": "^1.3.1",
+    "log-update": "^2.3.0",
+    "minimist": "^1.2.0",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
